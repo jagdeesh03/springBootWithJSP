@@ -1,0 +1,52 @@
+body {
+    margin : 0;
+    padding : 0;
+    background-color: #f5f7fa;
+;
+}
+.index_header {
+    font-family: "Times New Roman";
+    background-color: #007bff;
+    height:140px;
+    width: 100%;
+}
+.container{
+    margin-top: 50px;
+}
+.row {
+    flex-wrap:nowrap !important;
+}
+.contain {
+    background-color: white;
+    height: 250px;
+    width:  350px;
+    border-radius:16px ;
+    margin:20px;
+}
+.btn {
+    width : 200px;
+    font-weight: bold;
+}
+
+h2 {
+    color: white;
+    font-style: italic;
+    margin-top: 50px;
+}
+h5,.btn{
+    font-style: italic;
+}
+.card {
+    transition: all linear 200ms;
+}
+.card:hover {
+    transform: scale(1.1);
+    transition: all linear 200ms;
+    z-index: 1;
+    box-shadow: 1px 1px 10px rgba(0,0,0,.3);
+    cursor: pointer;
+}
+img {
+    width : 60px;
+    height :  60px;
+}
